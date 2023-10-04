@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #022D7C;
+    width: 100vw;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+
+}
+
+header h2 {
+    text-transform: uppercase;
+}
+
+.dark span {
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.light span {
+    color: #00ffff;
+}
+
+/* --------------Header Section end----------------------*/
+
+
+/* --------------Poster Section Start----------------------*/
+
+section {
+    padding: 0 150px ;
+    background-image: url("../img/factory1.jpg");
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.form {
+    text-align: center;
+    padding: 20px;
+    background-color: #00256a;
+    width: 400px;
+    height: 480px;
+    
+    border-radius: 10px;
+    color: #fff;
+    
+    
+}
+
+.form h2 {
+    font-weight: 100;
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.fname {
+    float: left;
+}
+
+.lname {
+    float: right;
+}
+
+.cname {
+    float: left;
+    width: 100%;
+}
+
+
+
+.ename {
+    float: left;
+}
+
+.pname {
+    float: right;
+}
+
+.tname {
+    float: left;
+    width: 100%;
+}
+
+input {
+    text-align: center;
+    margin: 6px 0;
+    width: 175px;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+textarea {
+    text-align: center;
+    margin: 7px 0;
+    
+}
+
+.cn {
+    width: 360px;
+}
+.cbtn {
+    width: 360px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 680;
+    background-color: #00FFFF;
+}
+
+.bname {
+    border-radius: 40px;
+} 
+
+.left {
+    color: #fff;
+}
+
+.left h1,.left h2 {
+    text-transform: uppercase;
+}
+
+.left h1 {
+    font-size: 100px;
+}
+
+.left h2 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.left h3 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+
+  /*  --------------Poster Section end----------------------*/
+
+
+  /* ------------------Card section start -----------------*/
+.card-container {
+    width: 100vw;
+    /* background-color: #00256a; */
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px;
+  }
+.card-container img{
+    width: 400px;
+    height: 250px;
+    
+}
+
+.card-container .card {
+    width: 400px;
+}
+
+.card-container .card p {
+    color: #475a83;
+}
+
+.card-container .card h2 {
+    color: #092C70;
+    font-size: 28px;
+    /* text-transform: capitalize; */
+}
+
+/* ------------------Card section end -----------------*/
+
+
+
+/* ------------------About section Start -----------------*/
+.about {
+    background-color: #022D7C;
+    color: #fff;
+    width: 100vw;
+    
+    text-align: center;
+
+    
+}
+
+.about-container {
+    /* text-align: center; */
+    padding: 70px 0;
+    margin: auto;
+    width: 80vw;
+    /* background-color: #00FFFF; */
+}
+
+.about-container button {
+    margin: 25px 0;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 400px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* ------------------About section Start -----------------*/
+
+
+/* ------------------Picture section Start -----------------*/
+
+.picture-container {
+    width: 100vw;
+    padding: 0 100px;
+}
+
+.para1 {
+    padding-left: 80px;
+}
+
+.para2 {
+    padding-right: 80px;
+}
+
+
+
+.picture-container .pic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.picture-container .pic .img {
+    width: 2270px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+
+
+/* ------------------Picture section end -----------------*/
+
+
+
+
+/*---------------------Footer Section Start---------------------*/
+
+footer {
+    background-color: #00256a;
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px ;
+    font-weight: 200;
+}
+
+/*---------------------Footer Section End---------------------*/
